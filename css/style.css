@@ -1,0 +1,377 @@
+body {
+    color: white;
+    background: #0000ff;
+    font-family: "Trirong", serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+    background: #4D4DFF;
+    height: 128px;
+    width: 98px;
+    overflow: hidden;
+}
+
+/* Texte */
+h2 {
+    background-color: white;
+    border: none;
+    color: black;
+    text-align: center;
+    position: relative;
+    font-size: calc(3000vw / 1080);
+    padding: 1rem;
+    margin: 15px 400px 0px 400px;
+    box-shadow: 0 0 20px black;
+    cursor: pointer;
+}
+h3 {
+    background-color: rgb(0, 119, 255);
+    border: none;
+    color: white;
+    font-size: 1.5vw;
+    border-radius: 60px;
+    font-style: Andale Mono, monospace;
+    position: fixed;
+    right: 70px;
+    padding: 1rem;
+    cursor: pointer;
+    box-shadow: 0 0 10px black;
+}
+h4 {
+    font-size: 150%;
+    position: fixed;
+    top: 0px;
+}
+button.leave {
+    font-size: 90%;
+    width: 36px;
+    height: 36px;
+    border-radius: 10px;
+    position: fixed;
+    top: 30px;
+    right: 30px;
+    background: red;
+    box-shadow: 0 0 10px red;
+    border-color: red;
+}
+button.leave:hover {
+    box-shadow: 0 0 40px rgb(87, 0, 0);
+    color: rgb(87, 0, 0)
+}
+
+/* Cloud */
+.cloud {
+    position: fixed;
+    top: 200px;
+    left: 480px;
+    overflow-y: auto;
+    border: white 5px solid;
+    width: 500px;
+    height: 300px;
+    
+}
+
+.container_cloud {
+    max-width: 500px;
+    margin: 0 auto;
+    
+}
+
+.cloud h1 {
+	text-align: center;
+}
+
+.cloud input[type="text"] {
+	width: 80%;
+	padding: 10px;
+	font-size: 16px;
+	border: none;
+	border-bottom: 2px solid #ddd;
+}
+
+.cloud ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+.cloud li {
+	margin-bottom: 10px;
+	display: flex;
+	align-items: center;
+}
+
+.cloud li span {
+	flex-grow: 1;
+}
+
+.cloud button {
+	padding: 10px;
+	background-color: #001a8c;
+	color: white;
+	border: none;
+	cursor: pointer;
+	margin-left: 10px;
+}
+
+.cloud button:hover {
+	background-color: #001368;
+}
+
+.box5{
+        width: 200px;
+        height: 100px;
+        -webkit-border-radius: 50% / 60% 60% 40% 40%;
+        border-radius: 50% / 100% 100% 0 0;
+        border: 50px solid rgb(13, 255, 0);
+        border-bottom: none;
+        position: fixed;
+        top: 250px;
+        right: 200px;
+}
+.min {
+    position: fixed;
+    top: 382px;
+    right: 458px;
+}
+.max {
+    position: fixed;
+    top: 382px;
+    right: 208px;
+}
+progress{
+    position: fixed;
+    top: 422px;
+    right: 197px;
+    width: 300px;
+}
+.rem {
+    margin-left: 5px;
+    background-color: #0000ff;
+    color: red;
+    border: none;
+    cursor: pointer;
+}
+ul li:nth-child(1){
+    color: #ffffff;
+    text-shadow: 0 0 20px #1DA1F2;
+    font-size:150%;
+}
+ul li:nth-child(2):active{
+    color: #ffffff;
+    text-shadow: 0 0 20px #1DA1F2;
+    transform: translateX(10%);
+    
+}
+ul li:nth-child(3):active{
+    color: #ffffff;
+    text-shadow: 0 0 20px #1DA1F2;
+    transform: translateX(10%);
+    
+}
+
+
+/* Table des notes */
+.note {
+    position: fixed;
+    top: 200px;
+    left: 600px;
+}
+.tablenote {
+    width: 500px;
+    height: 500px;
+    font-size: 135%;
+    border: 5px solid white;
+    background-color: white;
+}
+.tablenote th {
+    background: #0000ff;
+}
+.tablenote td {
+    padding-left: 5px;
+    background: #0000ff;
+}
+
+
+/*Nav Bar */
+.nav {
+    background-color: #4D4DFF;
+    position: fixed;
+    display: flex;
+    top: 0;
+    left: 0;
+    height: 93.2vh;
+    padding: 1.5rem;
+    border-right: 24px solid white;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    transform: translateX(-90%);
+    transition: transform 0.5s ease-in-out;
+}
+
+.nav:hover {
+    transform: translateX(0%);
+    border-right: 21px solid #4D4DFF;
+}
+
+.nav ul {
+    padding: 0;
+    list-style-type: none;
+    margin: 0;
+}
+
+.nav ul li {
+    padding: 1rem 1;
+    transition: transform 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.nav ul li:hover {
+    color:#0000CC;
+    transform: translateX(10%);
+}
+.nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+ul li:nth-child(1):hover{
+      color: #1DA1F2;
+      box-shadow: 0 0 20px lightblue;
+      text-shadow: 0 0 20px #1DA1F2;
+}
+ul li:nth-child(2):hover{
+      color: #1DA1F2;
+      box-shadow: 0 0 15px lightblue;
+      text-shadow: 0 0 15px #1DA1F2;
+}
+ul li:nth-child(3):hover{
+  color: #1DA1F2;
+  box-shadow: 0 0 15px lightblue;
+  text-shadow: 0 0 15px #1DA1F2;
+}
+ul li:nth-child(4):hover{
+  color: #1DA1F2;
+  box-shadow: 0 0 15px lightblue;
+  text-shadow: 0 0 15px #1DA1F2;
+}
+ul li:hover{
+  color: #1DA1F2;
+  box-shadow: 0 0 15px lightblue;
+  text-shadow: 0 0 15px #1DA1F2;
+}
+
+
+/* Cookie Popup */
+.cookie {
+    color: black;
+    font-family: "Audiowide", sans-serif;
+    position: absolute;
+    z-index: 10;
+    padding: 0 50px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    max-width: 700px;
+    height: 90%;
+    max-height: 500px;
+    background: linear-gradient(271deg, #00bfff, #0000ff);
+    border-radius: 30px;
+    box-shadow: 0 0 30px -5px black;
+}
+
+.popup > button[class="cook"] {
+    font-family: "Audiowide", sans-serif;
+    font-size: 130%;
+    background-color:rgb(255, 255, 255);
+    width: 100px;
+    border: 5px solid #ffffff;
+    box-shadow: 0 0 30px -5px black; 
+}
+button[class="cook"]:active {
+    box-shadow: 0 0 50px -5px rgb(255, 0, 0);
+}
+
+
+/* Login Popup */
+.popup-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(63, 63, 63, 0.548);
+}
+
+
+.popup {
+    color: black;
+    font-family: "Audiowide", sans-serif;
+    position: absolute;
+    z-index: 10;
+    padding: 0 50px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    max-width: 700px;
+    height: 90%;
+    max-height: 500px;
+    background: linear-gradient(271deg, #ffffff, #0000ff);
+    border-radius: 30px;
+    box-shadow: 0 0 30px -5px black;
+}
+
+.popup > input[type=text],
+.popup > input[type=password] {
+    width: 250px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: inherit;
+}
+.popup > button[class="submit"] {
+    font-family: "Audiowide", sans-serif;
+    font-size: 130%;
+    background-color:rgb(255, 255, 255);
+    width: 100px;
+    border: 5px solid #ffffff;
+    box-shadow: 0 0 30px -5px black; 
+}
+button[class="submit"]:active {
+    box-shadow: 0 0 50px -5px rgb(255, 0, 0);
+}
+
+/* Swal css */
+.swal2-container.swal2-center>.swal2-popup {
+    grid-column: 2;
+    grid-row: 2;
+    align-self: center;
+    justify-self: center;
+}
+.swal2-show {
+    animation: swal2-show .3s;
+}
+[class^=swal2] {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+.swal2-popup {
+    display: none;
+    position: relative;
+    box-sizing: border-box;
+    grid-template-columns: minmax(0, 100%);
+    width: 32em;
+    max-width: 100%;
+    padding: 0 0 1.25em;
+    border: none;
+    border-radius: 5px;
+    background: #fff;
+    color: #545454;
+    font-family: inherit;
+    font-size: 1rem;
+}

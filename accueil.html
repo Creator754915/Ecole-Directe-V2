@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>Ecole Pro</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+        <link rel="shortcut icon" type="/png" href="image/favicon.png"/>
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/script.js"></script>
+        <script src="js/api.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    </head>
+    <body>
+        <h3 id="nom_eleve" onclick="telecharger()">Nom Elève</h3>
+        <button onclick="leave()" class="leave"><i class="fa fa-window-close"></i></button>
+        <h2 id="nom_college">Nom Collège</h2>
+        <nav id="nav" class="nav">
+            <ul>
+                <h4>Mon Espace <br>Élève</h4>
+                <br>
+                <br>
+                <br>
+                <br>
+                <div class="container">
+                    <img src="image/favicon.png">
+                </div>
+                <li><i class="fas fa-school fa"></i><a> Accueil</a></li>
+                <li><i class="fa fa-envelope fa"></i><a> Messagerie</a></li>
+                <li><i class="fa fa-calendar fa"></i><a> Emploie du temps</a></li>
+                <li onclick="pnote()"><i class="fa fa-book fa"></i><a > Note</a></li>
+                <li onclick="devoirs()"><i class="fas fa-address-book fa"></i><a> Cahier de texte</a></li>
+                <li onclick="cloud()"><i class="fad fa-cloud fa"></i><a> Cloud </a></i></li>
+                <li onclick="time()"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock-fill" viewBox="0 0 16 16">
+                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+                  </svg><a> Heures</a></li>
+            </ul>
+        </nav>
+    </body>
+</html>
