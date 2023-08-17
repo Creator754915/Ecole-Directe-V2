@@ -32,7 +32,7 @@ h3 {
     border: none;
     color: white;
     font-size: 1.5vw;
-    border-radius: 60px;
+    border-radius: 15px;
     font-style: Andale Mono, monospace;
     position: fixed;
     right: 70px;
@@ -51,14 +51,14 @@ button.leave {
     height: 36px;
     border-radius: 10px;
     position: fixed;
-    top: 30px;
+    top: 40px;
     right: 30px;
     background: red;
-    box-shadow: 0 0 10px red;
-    border-color: red;
+    box-shadow: 0 0 5px red;
+    border: 2px solid rgb(188, 0, 0);
 }
 button.leave:hover {
-    box-shadow: 0 0 40px rgb(87, 0, 0);
+    box-shadow: 0 0 10px rgb(87, 0, 0);
     color: rgb(87, 0, 0)
 }
 
@@ -205,8 +205,8 @@ ul li:nth-child(3):active{
     height: 93.2vh;
     padding: 1.5rem;
     border-right: 24px solid white;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 0px;
     transform: translateX(-90%);
     transition: transform 0.5s ease-in-out;
 }
@@ -224,42 +224,27 @@ ul li:nth-child(3):active{
 
 .nav ul li {
     padding: 1rem 1;
-    transition: transform 0.5s ease-in-out;
+    border-radius: 5px;
+    transition: transform 0.4s ease-in-out;
     cursor: pointer;
 }
 
 .nav ul li:hover {
     color:#0000CC;
     transform: translateX(10%);
+    color: #1DA1F2;
+    box-shadow: 0px 0px 10px lightblue;
+    text-shadow: 0 0 10px #1DA1F2;
 }
 .nav a {
     color: rgb(255, 255, 255);
     text-decoration: none;
 }
-ul li:nth-child(1):hover{
-      color: #1DA1F2;
-      box-shadow: 0 0 20px lightblue;
-      text-shadow: 0 0 20px #1DA1F2;
-}
-ul li:nth-child(2):hover{
-      color: #1DA1F2;
-      box-shadow: 0 0 15px lightblue;
-      text-shadow: 0 0 15px #1DA1F2;
-}
-ul li:nth-child(3):hover{
-  color: #1DA1F2;
-  box-shadow: 0 0 15px lightblue;
-  text-shadow: 0 0 15px #1DA1F2;
-}
-ul li:nth-child(4):hover{
-  color: #1DA1F2;
-  box-shadow: 0 0 15px lightblue;
-  text-shadow: 0 0 15px #1DA1F2;
-}
+
 ul li:hover{
   color: #1DA1F2;
-  box-shadow: 0 0 15px lightblue;
-  text-shadow: 0 0 15px #1DA1F2;
+  box-shadow: 0 0 10px lightblue;
+  text-shadow: 0 0 10px #1DA1F2;
 }
 
 
@@ -320,7 +305,7 @@ button[class="cook"]:active {
     max-width: 700px;
     height: 90%;
     max-height: 500px;
-    background: linear-gradient(271deg, #ffffff, #0000ff);
+    background: linear-gradient(350deg, #6588ff, #0000ff);
     border-radius: 30px;
     box-shadow: 0 0 30px -5px black;
 }
